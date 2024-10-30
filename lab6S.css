@@ -1,0 +1,141 @@
+.static-box{
+    position: static;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: blue;
+    text-align: center;
+}
+.relative-box{
+    position: relative; bottom: 20px; right: 30px;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: red;
+    text-align: center;
+}
+.absolute-box{
+    position: absolute; top: 10px; left: 15px;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: rgb(0, 255, 89);
+    text-align: center;
+}
+.fixed-box{
+    position: fixed; bottom: 10px; right: 15px;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: rgb(255, 0, 208);
+    text-align: center;
+}
+.sticky-box{
+    position: sticky; top: 0px; nav-down: 50px;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: rgb(255, 123, 0);
+    text-align: center;
+}
+.background-image{
+    position: sticky; top: 0px; nav-down: 50px;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-image: url(Screenshot-2023-12-13-073515-copy.png);
+    background-size: cover;
+}
+.background-image-repeat{
+    position: sticky; top: 0px; nav-down: 50px;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-image: url(Screenshot-2023-12-13-073515-copy.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+
+.box1{
+    position: relative; top: 150px;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: rgb(0, 255, 200);
+    text-align: center;
+    z-index: 1;
+}
+.box2{
+    position: absolute;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: rgb(51, 255, 0);
+    text-align: center;
+    z-index: 2;
+}
+.question9{
+    flex-direction: row;
+    container-type: flex;
+}
+.a9{
+    position: relative;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: rgb(0, 255, 174);
+    text-align: center;
+}
+.b9{
+    position: relative; bottom: 100px;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: rgb(232, 93, 216);
+    text-align: center;
+}
+.c9{
+    position: relative;
+    display: flex;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    box-sizing: content-box;
+    background-color: rgb(9, 106, 106);
+    text-align: center;
+}
